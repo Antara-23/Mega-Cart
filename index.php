@@ -4,7 +4,7 @@ include("header.php");
 
 
 <div id="mid">
-  <div id="newlogin"><a href="registerationform.php">New User</a>|<a href="loginform.php">Login</a> 
+  <div id="newlogin"><a href="displayNews.php">News</a>|<a href="registerationform.php">New User</a>|<a href="loginform.php">Login</a> 
   </div>
 </div> <!--end of mid-->
 
