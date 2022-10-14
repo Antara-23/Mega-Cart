@@ -1,0 +1,388 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    background-color:khaki;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#main
+{
+    width:960px;
+    min-height:800px;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid black;
+    padding:0px;
+    background-color:blanchedalmond;
+}
+#header
+{
+    border:1px solid black;
+    box-sizing: border-box;
+    height:150px;
+}
+#header a
+{
+    text-decoration:none;
+    color: black;
+}
+#leftlogo
+{
+    width:150px;
+    height:100%;
+    float: left;
+}
+#leftlogo img
+{
+    width:100%;
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+    border-right:1px solid black;
+}
+#rightlogo
+{
+    width:150px;
+    height:100%;
+    float:left;
+}
+#rightlogo img
+{
+    width:100%;
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+    border-left:1px solid black;
+}
+#centertxt
+{
+    width:658px;
+    float: left;
+    text-align:center;
+}
+#centertxt h1
+{
+    text-shadow: 2px 2px 10px greenyellow;
+    letter-spacing:5px;
+    margin: 20px 0px 0px;
+}
+#centertxt h3
+{
+    color:green;
+    letter-spacing:2px;
+}
+#footer
+{
+    width:960px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    background-color: black;
+    color: white;
+    margin:0px;
+    padding: 0px;
+}
+#footer a
+{
+    color:greenyellow;
+    text-decoration:none;
+}
+#mid
+{
+    min-height:40px;
+    line-height:40px;
+    
+}
+#newlogin a
+{
+    text-decoration:none;
+    background-color:aquamarine;
+    color:red;
+    padding:7px 10px;
+}
+#newlogin
+{
+    text-align:right;
+}
+.content
+{
+    min-height:700px;
+    margin: 0px;
+    padding: 0px;
+}
+.content a
+{
+    text-decoration:none;
+    color:black;
+}
+.content a:hover
+{
+    color:rgb(238, 84, 238);
+}
+
+#myForm
+{
+    width: 500px;
+    border:3px solid black;
+    background-color:wheat;
+    margin: 15px auto;
+    min-height: 250px;
+    padding: 20px;
+    font-size: 20px;
+}
+#myForm label 
+{
+    display: block;
+    margin:5px 0px;
+}
+#myForm input[type="text"], #myForm input[type="password"],#myForm input[type="date"],
+#myForm select,#myForm textarea
+{
+    width: 90%;
+    font-size: 20px;
+    border:1px solid black;
+    padding: 2px 5px;
+}
+#formBtnGroup
+{
+    text-align: center;
+}
+#formBtnGroup input[type="button"],#formBtnGroup input[type="submit"],#formBtnGroup input[type="reset"]
+{
+   width: 100px;
+   height: 40px;
+   font-size: 20px;
+   margin: 15px;
+   background-color:darkred;
+   border:3px solid black;
+   color:white;
+   border-radius: 20px 0px;
+}
+#resmsg
+{
+    background-color:rgb(241, 164, 164);
+    color:black;
+    width:500px;
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+#adminArea
+{
+    background-color:greenyellow;
+    width:100%;
+    min-height:700px;
+    margin-top:0px;
+    padding-top: 0px;
+    border:1px solid black;
+    box-sizing: border-box;
+}
+#leftAdmin
+{
+    width: 150px;
+    min-height: 100%;
+    background-color:wheat;
+    border-right: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+}
+#rightAdmin
+{
+    width:801px;
+    min-height:100%;
+    background-color:greenyellow;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px;
+    padding: 0px;
+}
+#menuAdmin
+{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+#menuAdmin li 
+{
+    margin-left:5px ;
+    margin-right:5px;
+}
+#menuAdmin li a 
+{
+    color:darkred;
+    display:block;
+    height:30px;
+    line-height:30px;
+    font-weight:bold;
+}
+
+#menuAdmin li a:hover 
+{
+    background-color:darkred;
+    color:white;
+} 
+#menuAdmin hr
+{
+    border-style:dotted;
+}
+#categoryArea
+{
+    background-color:powderblue;
+    width:960px;
+    height:auto;
+}
+.category
+{
+    text-align: center;
+    width: 130px;
+    height: 150px;
+    padding: 10px;
+    border:5px solid black;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+} 
+.category a
+{
+    text-decoration: none;
+    color: red;
+}
+.category img
+{
+    margin-top: 10px;
+    width:100px;
+    height:100px;
+    border:1px solid black;
+} 
+#itemArea
+{
+    background-color:plum;
+    width:960px;
+    height:100%;
+}
+.item
+{
+    text-align: center;
+    width: 130px;
+    height: 350px;
+    padding: 10px;
+    border:5px solid black;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.item img{
+    margin-top: 10px;
+    width:100px;
+    height:100px;
+    border:1px solid black;
+}
+.buyNow
+{
+     width:100px;
+     height: 40px;
+     text-align: center;
+    margin: 15px auto;
+    border:3px solid black;
+    background-color:darkred;
+    border-radius: 10px;
+}
+.buyNow a 
+{
+    line-height: 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    
+}
+#cartInfo
+{
+    margin: 20px auto;
+    width:80%;
+    background-color:yellow;
+    min-height: 300px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+#cartInfo a
+{
+    text-decoration: none;
+    color: darkred;
+}
+#cartInfo table
+{
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+#placeOrder
+{
+    width:140px;
+    height:40px;
+    text-align: center;
+    background-color:crimson;
+    margin:20px auto;
+    border:5px solid black;
+    border-radius:15px 0px;
+}
+#placeOrder a
+{
+    color:white;
+    text-decoration:none;
+    line-height:40px;
+    font-size:18px;
+    display:block;
+}
+#placeOrder a:hover
+{
+    color:white;
+    background-color:black;
+    border-radius:15px 0px;
+}
+#menuUser
+{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+#menuUser li 
+{
+    margin-left:5px ;
+    margin-right:5px;
+}
+#menuUser li a 
+{
+    color:darkred;
+    display:block;
+    height:30px;
+    line-height:30px;
+    font-weight:bold;
+}
+
+#menuUser li a:hover 
+{
+    background-color:darkred;
+    color:white;
+} 
+#menuUser hr
+{
+    border-style:dotted;
+}
+#replyBtn
+{
+    width:80px;
+    height:40px;
+    border:2px solid black;
+    border-radius:10px 0px;
+    background-color: rgb(238, 84, 238);
+    margin: 20px auto;
+}
+#replyBtn a
+{
+    color: white;
+    line-height:40px;
+    display: block;
+    text-align: center;
+}
+
